@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(236, 171, 51);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(20, 49, 130);
+    background-color:aliceblue;
+}
+
+#show-sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid black;
+    border-radius: 25px;
+    animation-name: transition;
+    animation-duration: 10s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes transition {
+    from {box-shadow: 1px 1px 30px rgb(2, 2, 2);}
+    to {box-shadow: 5px 5px 50px rgb(2, 2, 2);}
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
